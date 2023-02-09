@@ -1,6 +1,151 @@
-/* Jasor Part */
+
+ body{
+    background-color: #3d414e;
+    background: linear-gradient(90deg,rgba(32,34,46,255) 35%,#3d414e 100%);
+   
+    /* background-color: rgb(61,65,78); */
+
+    color:white;
+    margin:0%;
+} 
+#homePage{
+    /* position: relative; */
+    padding:10%;
+   
+}
+.headText{
+    position: absolute;
+}
+.headImg{
+    position: absolute;
+    right: 5%;
+    top:-30%;
+}
+.headImg img{
+    height:700px;
+    width: 800px;
+    mix-blend-mode: plus-lighter;
+}
+h2{
+    word-break: break-all;
+}
+.joinBtn{
+    background-color: #2cd3e3;
+    padding:3% 5%; 
+    border-radius: 14px;
+    border:none;
+    color:white;
+
+}
+.sm-icons{
+    justify-content: center;
+    position: absolute;
+    right: 10%;
+    margin: 5% 0;
+}
+.sm-icons i{
+    margin-bottom: 20px;
+}
+br.responsive{
+    display:none
+}
+.dot{
+  height: 25px;
+  width: 25px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  opacity: 0.7;
+}
+.dot1{
+    bottom:2%;
+    left: 25%;
+}
+.dot2{
+    height: 15px;
+    width: 15px;
+    top:-10%;
+    right: -10%;
+    background-color:#fc5a72;
+}
+.dot3{
+    height: 20px;
+    width: 20px;
+    bottom: 0%;
+    right: 5%;
+    background-color:#fc5a72;
+}
+/* #3d414e */
+/* Jasor Part */ 
+/* 
+body,
+button,
+a {
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  margin-top: 100px;
+}
+
+.parent_div{
+  background-image:url('./sympo_images/header_asset.jpg') ;
+  width: fit-content;
+  height: fit-content;
+  object-fit: contain;
+}
+.heading {
+  font-weight: bold;
+  font-size: 5rem;
+  margin-top: 0;
+  color: white;
+}
+.sub-heading {
+  font-size: 1.1rem;
+  margin-top: 40px;
+  margin-right: 100px;
+  color: rgb(109, 109, 109);
+}
+.buy-now {
+  margin-top: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 1.5rem;
+  border-radius: 13px;
+  outline: none;
+}
+
+.tate-img {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+}
+.social-media{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 300px;
+}
+.fa-brands:hover{
+    color: aqua;
+}
 
 
+@media (max-width: 990px){
+  .parent_div{
+    text-align: center;
+  }
+  .sub-heading{
+    margin-right: 0;
+  }
+  .social-media{
+    flex-direction: row;
+    margin-top: 3rem;
+  }
+  .buy-now{
+    margin-bottom: 30px;
+  }
+} */
 
 
 
@@ -26,3 +171,58 @@
 
 
 /* Azhagapan Part */
+
+
+
+
+
+
+
+/* Hari Part  */
+.center{
+    display: flex;
+    justify-content: center;
+}
+
+
+@media (max-width: 990px){
+   .headImg img{
+    height: 300px;
+    width: 400px;
+   }
+   .headImg{
+    top:20%;
+    right: -15%;
+   }
+   br.responsive{
+    display:inline
+   }
+   .sm-icons{
+    font-size: 10px;
+    margin:25% 0;
+    right:5%;
+   }
+   .dot1{
+    bottom:40%;
+}
+.dot2{
+    top:5%;
+    right: 15%;
+}
+.dot3{
+    bottom:20%;
+}
+  } 
+  
+  
+
+/* 
+.inputdiv{
+    background-color: rgba(255, 255, 255, 0.3);
+    margin:4% 10%;
+    border-radius: 10px;
+}
+.inputdiv h2{
+    margin: 5%;
+} */
+
