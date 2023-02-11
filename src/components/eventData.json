@@ -1,0 +1,47 @@
+{
+    "events":[
+        {
+        "eventName":"Debugging",
+        "eventNo":"t1",
+        "rules":["Only one participant per department.","Questions will be based on java."]
+        }
+    ,{
+        "eventName":"Tech Quiz",
+        "eventNo":"t2",
+        "rules":["Only one team per department.","Team must have two members only.","Questions will be based on //Please fill here with question types"]
+    } ,{
+        "eventName":"Web Desgin",
+        "eventNo":"t3",
+        "rules":["Only one participant per team.","Topic will be given on spot","Participants need to design a website using HTML,CSS,JavaScript."]
+    } ,{
+        "eventName":"Product Presentation",
+        "eventNo":"t4",
+        "rules":["Only one team per department.",
+        "Team should have two members only",
+        "Participant should bring and explain about their own product.",
+        "Products may be created using Artificial intelligence,IOT,Cloud computing,Machine learning.",
+        "Domains are not limited or restricted to the above topics",
+        "Marks will be based on creativity, explanation, and Q/A."
+    ]
+    } ,{
+        "eventName":"Dumb Charades",
+        "eventNo":"nt1",
+        "rules":["Only one team per department. ","A team must have two members only.","Two rounds will be conducted.","Technical topics will be given."]
+    } ,{
+        "eventName":"Connection",
+        "eventNo":"nt2",
+        "rules":["Only one team per department.","A team must have two members only.","Prelims will be conducted."]
+    } ,{
+        "eventName":"Ad-Zap",
+        "eventNo":"nt3",
+        "rules":["Quiz will be conducted. Questions will be based on General knowledge.","Two participants as a team can attend the prelims.","Only one team per department.","Each team must have 5 participants.","Topic will be given half an hour before the event","Topic will be given half an hour before the event"]
+    
+}
+    ,{
+        "eventName":"MultiMedia",
+        "eventNo":"nt4",
+        "rules":["Only one participant per team.","Participant can use any video editing tool.","Topic will be given on spot.","Participants should bring their own laptop."]
+    }
+    ]
+
+}

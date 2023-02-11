@@ -1,9 +1,12 @@
+
+
 .individualReg{
-    padding:5% 10% 1%;
+    padding:1% 10% 4%;
 }
-.inputLabel{
-  
+.individualReg h2,h4{
+  color:white;
 }
+
 #events{
   margin: 1% 1% 5% 2%;
   padding:2%;
@@ -13,7 +16,7 @@
 .create-form{
   background-color: #a1a1a1;
   border-radius: 10px;
-    margin:0 30%;
+    margin:2% 30% 0%;
     padding: 4% 6%;
     /* padding-right:8%;   */
 }
@@ -30,7 +33,7 @@
     margin: 5% 30% 1% ;
     background-color: #7a50ef;
     padding:1.3% 5%; 
-    border-radius: 14px;
+    border-radius: 10px;
     border:none;
     font-size: 15px;
     color:white;
@@ -41,6 +44,36 @@
     /* margin-bottom: 10%!important; */
     /* color:#000000 */
 }  
+.singleEvent{
+  padding:5%;
+}
+.singleEvent h2,h4,li,label{ 
+  color:white
+}
+.singleEvent h4{
+  margin:3% 0
+}
+.footer{
+  color:white;
+}
+.footer hr{
+  margin:0 40%;
+  border-top: 6px solid #fff;
+  border-radius: 10px;
+  width:250px;
+}
+.footerP{
+  display: flex;
+  justify-content: center;
+}
+
+/* .ruleslist{
+  padding:3%
+} */
+
+
+
+
 /* Switch Customization */
 
 
@@ -101,7 +134,7 @@
   .switch-label:after {
     content: attr(data-on);
     top:13px;
-    left: 18px;
+    left: 15px;
     color: #FFFFFF;
     text-shadow: 0 1px rgba(0, 0, 0, 0.2);
     opacity: 0;
@@ -145,7 +178,7 @@
     box-shadow: inset 0 1px rgba(0, 0, 0, 0.02);
   }
   .switch-input:checked ~ .switch-handle {
-    left: 105px;
+    left: 98px;
     box-shadow: -1px 1px 5px rgba(0, 0, 0, 0.2);
   }
    
@@ -158,7 +191,7 @@
     -o-transition: All 0.3s ease;
   }
 .toggleSwitch{
-  margin:5% 40%
+  margin:4% 42% 1%;
 }
 
 
@@ -190,4 +223,13 @@
      .toggleSwitch{
       margin:3% 20%
      } 
+     .individualReg h2,h4{
+      font-size:smaller;
    } 
+   .footer hr{
+    margin:0 35%;
+    border-top: 6px solid #fff;
+    border-radius: 10px;
+    width:100px;
+  }
+  }

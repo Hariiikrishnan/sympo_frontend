@@ -1,17 +1,26 @@
-import React from "react";
+import React,{useState} from "react";
 
-function singleEvent(){
-    return <div>
-       <h2 class="center">Web Hacking</h2>
+
+
+function SingleEvent(props){
+  console.log(props);
+
+    return <div class="singleEvent">
+    
+       <h2 class="center">{props.data.eventName}</h2>
         <h4 class="center">Rules to Remember!</h4>
         <div class="ruleslist center"> 
         <ul>
-          <li>Abbra Kaah daabraa joo mandhra kaali haa manavum vikkon gaaliii.</li>
-          <li>thillana thillana naan thithikindra thena.thiku thiku nenju thillana..</li>
-          <li>nenjikul peidhidum maa malai neerukkul moolgidum thamaarai..</li>
+          { props.data.rules.map((rule)=>{
+            return <li>{rule}</li>
+          })
+          
+          }
+          
+      
       </ul>
       </div>
     </div>
 }
 
-export default singleEvent;
+export default SingleEvent;
