@@ -39,7 +39,7 @@ function Individual() {
 
       <div>
         <form class="create-form">
-        <label class="inputLabel">Event Name:</label>
+        <label class="inputLabel">Event Name:</label><br/>
         <select for="events" id="events">
           <option value="Debugging">Debugging</option>
           <option value="Tech Quiz">Tech Quiz</option>
