@@ -37,7 +37,9 @@ h2{
     border-radius: 14px;
     border:none;
     color:white;
-
+}
+.joinBtn:hover{
+  box-shadow: 0px 3px 15px rgb(138, 137, 137);
 }
 .sm-icons{
     justify-content: center;
@@ -185,7 +187,9 @@ body {
     display: flex;
     justify-content: center;
 }
-
+.centerAlign{
+  text-align: center;
+}
 
 @media (max-width: 990px){
    .headImg img{
