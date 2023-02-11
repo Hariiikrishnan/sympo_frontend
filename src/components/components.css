@@ -4,6 +4,12 @@
 .inputLabel{
   
 }
+#events{
+  margin: 1% 1% 5% 2%;
+  padding:2%;
+  border-radius: 8px;
+  border:none;
+}
 .create-form{
   background-color: #a1a1a1;
   border-radius: 10px;

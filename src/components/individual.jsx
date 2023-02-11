@@ -39,6 +39,18 @@ function Individual() {
 
       <div>
         <form class="create-form">
+        <label class="inputLabel">Event Name:</label>
+        <select for="events" id="events">
+          <option value="Debugging">Debugging</option>
+          <option value="Tech Quiz">Tech Quiz</option>
+          <option value="Web Design">Web Design</option>
+          <option value="Product Presentation">Product Presentation</option>
+          <option value="Dumb Charades">Dumb Charades</option>
+          <option value="Connection">Connection</option>
+          <option value="Ad-Zap">Ad-Zap</option>
+          <option value="Multimedia">Multimedia</option>
+    
+        </select><br/>
           <label class="inputLabel">Enter Your Name:</label>
           <input name="name" placeholder="Name" required={true} autoComplete="off" onChange={handleChange}/>
           <br />

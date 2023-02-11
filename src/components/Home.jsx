@@ -1,11 +1,19 @@
 import React from "react";
-
-
-
+import { useNavigate } from "react-router-dom";
 
 
 
 function Home(){
+
+  let navigate = useNavigate(); 
+  const routeChange = () =>{ 
+    let path = `register`; 
+    navigate(path);
+  }
+
+
+
+
     return  <div id="homePage">
       <div class="headText">
       <h1>TechX'23</h1>
@@ -13,7 +21,7 @@ function Home(){
       <h2>Welcome to Our <br class="responsive" />Small Symposium <br /> Conducted 
         in St.Joseph's  <br class="responsive" />College - Trichirappalli</h2>
       <p>Lorem Ipsum</p>
-      <button class="joinBtn" type="submit"  href="/register">Join Now</button>
+      <button class="joinBtn" type="submit" onClick={routeChange}  href="/register">Join Now</button>
        </div>
     <div class="headImg">
       <img class="center" src="images/header_asset.jpg" alt="Asset Head"/>
