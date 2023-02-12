@@ -12,7 +12,7 @@ function Home(){
       <span class="dot dot2"></span>
       <h2>Welcome to Our <br class="responsive" />Technincal <br class="headtxtdesk"/> Symposium <br class="responsive"/> Conducted 
         in St.Joseph's  <br/>College - Tiruchirappalli</h2>
-      <p>Lorem Ipsum</p>
+      <p>On 23rd Feb 2023</p>
       <Link class="joinBtn"    to="/register">Register Now</Link>
        </div>
     <div class="headImg">

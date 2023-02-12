@@ -9,7 +9,10 @@
     margin:0%;
     overflow-x:hidden;
 } 
-
+html{
+  background-color: #3d414e;
+  background: linear-gradient(90deg,rgba(32,34,46,255) 35%,#3d414e 100%);
+}
 #homePage{
     /* position: relative; */
     padding:10%;
@@ -29,6 +32,7 @@
     height:700px;
     width: 800px;
     mix-blend-mode: plus-lighter;
+    will-change: opacity;
 }
 h2{
     word-break: break-all;
