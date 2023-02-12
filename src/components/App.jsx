@@ -7,7 +7,7 @@ import Form from "./Form"
 import WholeApp from "./wholeApp"
 import Footer from "./footer"
 import Event from "./singleEvent"
-
+import Card from "./CardArea"
 
 import eventData from "./eventData.json"
 
@@ -21,14 +21,18 @@ function App(){
 <Route path="/">
 <Route index element={<WholeApp/>}/>
   <Route path="/register" element={<Form/>}/>
-  <Route path="/event" element={ eventData.events.map((singleEvent)=>{
+
+  {eventData.events.map((singleEvent)=>{
+    return <Route path={"/event/"+singleEvent.eventNo} element={<Event key={singleEvent.eventNo} data={singleEvent}/>}/>
+  })}
+  {/* <Route path="/event" element={ eventData.events.map((singleEvent)=>{
 // console.log(singleEvent)
     if(singleEvent.eventNo===clickedId){
         // console.log(singleEvent);
       return <Event key={singleEvent.eventNo} data={singleEvent}/>
     }
-  })}/>
-
+  })}/> */}
+{/* <Route path="/card" element={<Card/>}/> */}
   
   </Route>
   </Routes>

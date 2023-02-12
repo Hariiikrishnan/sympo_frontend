@@ -1,8 +1,6 @@
 import React from "react";
 // import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
-import eventData from "./eventData.json"
-
 
 
 function Home(){
@@ -28,7 +26,6 @@ function Home(){
       <i class="fa-brands fa-linkedin-in"></i>
     </div>
     <span class="dot dot3"></span>
-
     
   </div>
 }

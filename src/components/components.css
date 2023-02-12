@@ -66,6 +66,10 @@
   display: flex;
   justify-content: center;
 }
+.wholeApp h2,h3{
+  color:white;
+}
+
 
 /* .ruleslist{
   padding:3%
@@ -195,9 +199,24 @@
 }
 
 
-
-
-
+/* CArd Customization */
+.MuiCard-root{
+  background-color: rgba(255, 255, 255, 0.755)!important;
+  backdrop-filter: blur(200px);
+}
+.MuiCard-root Link{
+  text-decoration: none;
+}
+.MuiPaper-root-MuiCard-root {
+  background-color: #43cea2;
+}
+.cardArea{
+  padding:2%;
+}
+.cardArea h3{
+  margin-left:1%;
+  padding:2% 0;
+}
 
 
 
