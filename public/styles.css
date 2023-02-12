@@ -214,14 +214,22 @@ body {
   text-align: center;
 }
 
-
-@media (min-width:1080px) and (max-width: 1440px){
+@media screen and (min-width: 1024px) and (max-height: 1310px) {
   .headtxtdesk{
     display:inline
   }
+  .headImg{
+    right: 5%;
+   }
 }
+/* @media screen and (min-width: 1000px) and (max-height:1024px) {
+  .headtxtdesk{
+    display:inline
+  }
+} */
 
-@media (max-width: 990px){
+
+@media (max-width: 1023px){
   .joinBtn{
     border-radius: 10px;
     font-size: small;

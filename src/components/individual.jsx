@@ -1,18 +1,26 @@
 import React,{useState} from "react";
 
 import "./components.css";
+import axios from "axios";
+
 
 function Individual() {
+
+
   const [data,setData]=useState({
+    events:"",
     name:"",
-    phon:"",
+    phno:"",
     clgname:"",
-    mail:""
+    mail:"",
+    dname:"",
+    dno:""
   });
   const [credentialsError,setCredentialsError]=useState(false);
 
   function handleChange(event) {
     const { value, name } = event.target;
+    // console.log(event.target)
     setData((prevNotes) => {
       return { ...prevNotes, [name]: value };
     });
@@ -28,10 +36,40 @@ function Individual() {
   }else{
     setCredentialsError(false);
   }
-    // setLoading(true);
-    // props.isEdit ? handleUpdate(props.id) : onSubmit(event);
+  onSubmit();
+  // console.log(data);
+}
+  async function onSubmit() {
+    const config = {
+      headers: {
+        "Content-Type": "application/json",
+        Authorization: "Bearer " + "token",
+      },
+    };
+    try {
+      const body = JSON.stringify(data);
+      await axios
+           .post(
+          `https://starfish-app-uva3q.ondigitalocean.app/sympo/register`,
+          body,
+          config
+        )
+        
+        setData({
+        events:"",
+        name: "",
+        phno: "",
+        clgname: "",
+        mail: "",
+        dname: "",
+        dno: "",
+      });
+   
+    } catch (err) {
+      console.error("error ", err.res.data);
+    }
+
   }
-// console.log(data)
   return (
     <div class="individualReg">
       <h2 class="center">Hello Folks!</h2>
@@ -39,8 +77,8 @@ function Individual() {
 
       <div>
         <form class="create-form">
-        <label class="inputLabel">Event Name:</label><br/>
-        <select for="events" id="events">
+        <label class="inputLabel" for="events">Event Name:</label><br/>
+        <select name="events" id="events" onChange={handleChange}>
           <option value="Debugging">Debugging</option>
           <option value="Tech Quiz">Tech Quiz</option>
           <option value="Web Design">Web Design</option>
@@ -62,6 +100,10 @@ function Individual() {
           <br />
           <label class="inputLabel">Enter Your E-Mail:</label>
           <input name="mail" placeholder="E-mail" autoComplete="off" required={true} onChange={handleChange}/><br/>
+          <label class="inputLabel">Enter Your Department Name:</label>
+          <input name="dname" placeholder="Department Name" autoComplete="off" required={true} onChange={handleChange}/><br/>
+          <label class="inputLabel">Enter Your College Roll No:</label>
+          <input name="dno" placeholder="Department No" autoComplete="off" required={true} onChange={handleChange}/><br/>
 
           <button type="pay" class="joinBtn regbtn paybtn">Pay Now</button><br/>
 
@@ -72,5 +114,5 @@ function Individual() {
     </div>
   );
 }
-
+  
 export default Individual;

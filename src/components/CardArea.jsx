@@ -24,16 +24,16 @@ function CardArea(){
         <CardMedia
           component="img"
           height="140"
-          image="images/header_asset.jpg"
+          image={singleEvent.imgsrc}
           alt="green iguana"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
             {singleEvent.eventName}
           </Typography>
+          
           <Typography variant="body2" color="text.secondary">
-            Lizards are a widespread group of squamate reptiles, with over 6,000
-            species, ranging across all continents except Antarctica
+          {singleEvent.tagLine}
           </Typography>
         </CardContent>
       </CardActionArea>

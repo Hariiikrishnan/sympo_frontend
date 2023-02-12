@@ -8,7 +8,7 @@ import Individual from "./individual";
 import TeamReg from "./TeamReg";
 import "./components.css";
 import Footer from "./footer"
-
+import SideBar from "./SideBar"
 
 function Form() {
     // const classes = useStyles();
@@ -19,7 +19,7 @@ function Form() {
   return (
     <div>
 <div class="toggleSwitch">
-
+<SideBar/>
 <label class="switch">
 <input class="switch-input" type="checkbox" checked={toggled}
   onChange={e => setToggled(e.target.checked)} />

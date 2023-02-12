@@ -217,11 +217,50 @@
   margin-left:1%;
   padding:2% 0;
 }
+.eventJoinBtn {
+  /* height:20px; */
+  margin:3% 40%;
+}
+.singleEvent{
+  padding:10%;
+}
 
-
-
-
-  
+.eventFooter{
+  position: absolute;
+  left: 0;
+ /*bottom: 0; */
+ width: 100%;
+ /* background-color: red;
+ color: white; */
+ text-align: center;
+ }
+ .singleEvent.eventFooter{
+  bottom: 0;
+ }
+ /* SIde Bar customization */
+ .MuiPaper-root.MuiDrawer-paper {
+   background-color: rgba(255, 255, 255, 0.629)!important;
+  backdrop-filter: blur(400px);
+ }
+  .sideBarLink{
+    color:black;
+    text-decoration: none;
+    margin:1% 5%;
+  }
+  .MuiButtonBase-root.MuiButton-root{
+    padding:5% !important;
+    position: absolute!important;
+    right:0!important;
+    top:5;
+  }
+  .hamburger{
+    color:white;
+    margin:1% 0;
+  }
+  .singleEvent p{
+    margin:5% 0;
+    color:white
+  }
 @media (max-width: 990px){
     .create-form input{
         margin: 5% 1% 10% 2%;
@@ -245,10 +284,25 @@
      .individualReg h2,h4{
       font-size:smaller;
    } 
+   
    .footer hr{
     margin:0 35%;
     border-top: 6px solid #fff;
     border-radius: 10px;
     width:100px;
+  }
+  .cardArea{
+    padding:10%;
+  }
+  .eventJoinBtn {
+    margin:20%;
+  }
+  .hamburger{
+    color:white;
+    margin:5% 0;
+  }
+  .MuiButtonBase-root.MuiButton-root{
+    padding:10% !important;
+    top:0;
   }
   }

@@ -3,19 +3,27 @@
         {
         "eventName":"Debugging",
         "eventNo":"t1",
+        "tagLine":"Debugging an event entail locating and rectifying problems with the event's code,ensuring it operates as intended.",
+        "imgsrc":"images/debugging.jpg",
         "rules":["Only one participant per department.","Questions will be based on java."]
         }
     ,{
         "eventName":"Tech Quiz",
         "eventNo":"t2",
+        "tagLine":"A technical quiz is a type of assessment designed to test an individual's knowledge and skills in a specific technical subject.",
+        "imgsrc":"images/tech-quiz.jpg",
         "rules":["Only one team per department.","Team must have two members only.","Questions will be based on //Please fill here with question types"]
     } ,{
         "eventName":"Web Desgin",
         "eventNo":"t3",
+        "tagLine":"Web design utilizing HTML, CSS, and JavaScript involves creating visually appealing and user-friendly websites that meet specific requirements and goals.",
+        "imgsrc":"images/web-designing.jpg",
         "rules":["Only one participant per team.","Topic will be given on spot","Participants need to design a website using HTML,CSS,JavaScript."]
     } ,{
         "eventName":"Product Presentation",
         "eventNo":"t4",
+        "tagLine":"Here comes a demonstration of the limitless power of imagination. Proving the proverb true, imagination has no bounds. Present your imagination in a PowerPoint presentation and let everyone see your thought capacity",
+        "imgsrc":"images/paper-presentation.jpg",
         "rules":["Only one team per department.",
         "Team should have two members only",
         "Participant should bring and explain about their own product.",
@@ -26,20 +34,28 @@
     } ,{
         "eventName":"Dumb Charades",
         "eventNo":"nt1",
+        "tagLine":" Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica",
+        "imgsrc":"images/dumb-charades.jpg",
         "rules":["Only one team per department. ","A team must have two members only.","Two rounds will be conducted.","Technical topics will be given."]
     } ,{
         "eventName":"Connection",
         "eventNo":"nt2",
+        "tagLine":" Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica",
+        "imgsrc":"images/connect.jpg",
         "rules":["Only one team per department.","A team must have two members only.","Prelims will be conducted."]
     } ,{
         "eventName":"Ad-Zap",
         "eventNo":"nt3",
+        "tagLine":" Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica",
+        "imgsrc":"images/ad-zap.jpg",
         "rules":["Quiz will be conducted. Questions will be based on General knowledge.","Two participants as a team can attend the prelims.","Only one team per department.","Each team must have 5 participants.","Topic will be given half an hour before the event","Topic will be given half an hour before the event"]
     
 }
     ,{
         "eventName":"MultiMedia",
         "eventNo":"nt4",
+        "tagLine":" Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica",
+        "imgsrc":"images/multimedia.jpg",
         "rules":["Only one participant per team.","Participant can use any video editing tool.","Topic will be given on spot.","Participants should bring their own laptop."]
     }
     ]
