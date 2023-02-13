@@ -31,8 +31,8 @@ html{
 .headImg img{
     height:700px;
     width: 800px;
-    mix-blend-mode: plus-lighter;
-    will-change: opacity;
+    mix-blend-mode: exclusion;
+    filter: brightness(1.5);
 }
 h2{
     word-break: break-all;
